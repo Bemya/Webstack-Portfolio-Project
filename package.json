@@ -1,4 +1,5 @@
 {
+  "homepage": "http://bemya.github.io/Webstack-Portfolio-Project",
   "name": "stack_clone",
   "version": "1.0.0",
   "description": "stack_clone",
@@ -7,6 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "client": "npm start --prefix client",
     "start": "node server",
+    "predeployed": "npm run build",
+    "deployed": "gh-pages -d build",
     "server": "nodemon server",
     "dev": "concurrently\"npm run server\" \"npm run client\""
   },
@@ -20,5 +23,8 @@
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
     "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
