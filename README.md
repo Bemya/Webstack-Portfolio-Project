@@ -1,4 +1,4 @@
-# Q&A platform for Alx SE Students
+#  Q&A platform for Alx SE Students
 
 stackoverflow.com clone web app that is built using React.js and Node.js
 
